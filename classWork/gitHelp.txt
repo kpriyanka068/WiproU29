@@ -1,0 +1,32 @@
+on linux box
+$mkdir demoPrj
+$cd demoPrj
+demoPrj$git init
+demoPrj$git git branch -m master main
+demoPrj$git config --global init.defaultBranch main
+
+on github create a repository with name demoPrj
+demoPrj.git
+
+on linux box
+demoPrj$git remote add origin https://github.com/bhimatak/demoPrj.git
+git remote -v
+origin	https://github.com/bhimatak/demoPrj.git (fetch)
+origin	https://github.com/bhimatak/demoPrj.git (push)
+demoPrj$ mkdir classWork
+rps@rps-virtual-machine:~/demoPrj$ cd classWork/
+rps@rps-virtual-machine:~/demoPrj/classWork$ mkdir day01
+rps@rps-virtual-machine:~/demoPrj/classWork$ cd day01/
+rps@rps-virtual-machine:~/demoPrj/classWork/day01$ vi readme.txt 
+rps@rps-virtual-machine:~/demoPrj$ git add .
+rps@rps-virtual-machine:~/demoPrj$ git commit -m "initial commit"
+rps@rps-virtual-machine:~/demoPrj$ git push -f origin main
+
+Username for 'https://github.com': bhimatak(your username)
+Password for 'https://bhimatak@github.com': (token gen paste here)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 311 bytes | 311.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/bhimatak/demoPrj.git
+ + 91dc84d...3dee65f main -> main (forced update)

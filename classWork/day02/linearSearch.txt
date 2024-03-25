@@ -1,0 +1,12 @@
+*****Algorithm for LinearSearch********
+===============================================
+
+Algorithm LinearSearch(list,target):
+Step 1 : set index = 0
+Step 2 : while index < lengthn of list:
+Step 3 : If list[index] <length of list:
+Step 4 :  Return index
+Step 5 : Increment index by 1
+Step 6 : If target is not found,return-1 
+
+--------------------------------------------------

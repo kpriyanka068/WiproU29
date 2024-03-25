@@ -1,0 +1,18 @@
+BINARY ALGORITH :
+
+
+BinarySearch(exarr,key)
+left=0
+Right = exarr(n-1)
+While left <=right
+Middle = (left + right)/2
+If exarr[middle] < key then
+Left = middle +1
+Else if exarr[middle] > keyright = middle -1
+else
+Return middle
+
+
+-------------------
+
+

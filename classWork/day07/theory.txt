@@ -1,0 +1,53 @@
+functions
+
+decl/prototype:
+sy:
+
+r_dt funcName(dt args);
+ex:
+int addition(int, int); //prototype
+
+
+defination of function// defining set of inst. of task
+
+sy:
+r_dt funcName(dt args)
+{
+    ---
+    ----
+    ---
+    return value; //value => r_dt
+}
+
+ex:
+int addition(int val1, int val2)
+{
+    int result;
+    result = val1+val2;
+    return result;
+}
+
+
+1 type
+no return value and no args
+
+
+void funcName();
+
+ex:
+void display();
+
+void display()
+{
+    printf("\n=================\n");
+}
+
+
+2. there is args and no return value
+
+sy:
+void funcName(dt args);
+
+3. functions with args and as well return value
+
+r_dt funcName(dt args);
