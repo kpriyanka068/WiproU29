@@ -1,6 +1,6 @@
 /*
 
-demo on pointers
+demo on pointers   
 
 */
 #include <stdio.h>
