@@ -1,3 +1,5 @@
+
+//steps for git
 on linux box
 $mkdir demoPrj
 $cd demoPrj
