@@ -1,0 +1,96 @@
+Strutures
+
+Employee -> single user def dt -> one Employee
+
+    1. empID -> int
+    2. empName -> char array
+    3. empGender -> char
+    4. empPhno -> int
+    5. empAddress -> arr char
+    6. empSalary -> float
+    7. empJdate -> string/date
+    8. empLdtate -> string/date
+    9. projID -> string
+    10. empLeaves -> int
+
+
+Employee e[100]
+
+integer
+{
+    gov. rules
+    it can whole number... value
+}
+Sy: 
+struct tagName/StructName
+{
+    define/dec primitive dt=> members of the structure
+};
+
+ex:
+struct Student
+{
+    int rollNo;
+    char name[20];
+    int phno;
+    char address[50];
+    int marks[4];
+};
+
+create the variable of this type
+
+struct Student s1,s2,s3;
+
+size of the udt
+summation of all the sizes of the members of the structure
+
+
+struct Student s[3];
+
+
+accessing members of the structure
+
+. dot operator -> structure variable are normall variable types
+-> arrow op -> structure variable dec as pointer type
+
+ex: of dot op
+
+s1.rollNo = 11001; -> this stores rollNo for s1
+s2.rollNo = 10101; -> this stores rollNo for s2
+
+#include <string.h>
+
+strcpy(str1, str2); => copy the content from str2 to str1
+
+strcpy(s1.name, "bhima");
+
+printf("\n%d %s",s1.rollNo, s1.name);
+
+
+
+struct Student
+{
+    int rollNo;
+    char name[20];
+    int phno;
+    char address[50];
+    int marks[4];
+}s4,s5,s6;
+
+struct
+{
+    int rollNo;
+    char name[20];
+    int phno;
+    char address[50];
+    int marks[4];
+} S7,S8,s9;
+
+
+struct Student s10, s11;
+
+typedef struct Student STUD;
+
+STUD s13,s14;
+
+
